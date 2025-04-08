@@ -6,7 +6,7 @@ import confetti from "canvas-confetti"
 const triviaQuestions = [
   {
     question: "What's Eli's favorite thing in the world?",
-    options: ["Pizza", "Sleep", "Memes", "Complaining about work"],
+    options: ["Pizza", "Sleep", "Memes", "Complaining about homework/Barilan"],
     correctAnswer: null, // All answers are correct!
   },
   {
