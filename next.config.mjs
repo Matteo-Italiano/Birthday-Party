@@ -1,3 +1,7 @@
+const repo = 'Birthday-Party' // <-- Ersetze das durch den Namen deines GitHub-Repos
+const isGithubPages = process.env.GITHUB_PAGES === 'true'
+
+
 let userConfig = undefined
 try {
   // try to import ESM first
@@ -47,6 +51,11 @@ if (userConfig) {
       nextConfig[key] = config[key]
     }
   }
+}
+
+if (isGithubPages) {
+  nextConfig.basePath = `/${repo}`
+  nextConfig.assetPrefix = `/${repo}/`
 }
 
 export default nextConfig

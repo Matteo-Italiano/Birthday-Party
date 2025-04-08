@@ -6,28 +6,28 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const mathMemories = [
   {
     id: 1,
-    title: "When we tried to divide by zero 🧠💥",
-    description: "The moment the universe almost collapsed",
+    title: "",
+    description: "",
   },
   {
     id: 2,
-    title: "Why are we doing algebra at midnight?",
-    description: "Sleep is for the weak, math is for the elite",
+    title: "",
+    description: "",
   },
   {
     id: 3,
-    title: "Certified Math Madness™",
-    description: "When the equations started speaking in tongues",
+    title: "",
+    description: "",
   },
   {
     id: 4,
-    title: "The Quadratic Formula Incident",
-    description: "That time we forgot the ± and spent 30 minutes debugging",
+    title: "",
+    description: "",
   },
   {
     id: 5,
-    title: "Calculus at 23:17",
-    description: "Because who needs sleep when you have derivatives?",
+    title: "",
+    description: "",
   },
 ]
 

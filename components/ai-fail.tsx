@@ -11,11 +11,13 @@ export function AiFail() {
   const images = [
     {
       id: 1,
-      alt: "AI Fail Image 1",
+      alt: "AI Fail Image Matteo",
+      src:'/public/image.png'
     },
     {
       id: 2,
-      alt: "AI Fail Image 2",
+      alt: "AI Fail Image Eli",
+      src: '/public/th.png'
     },
   ]
 
@@ -55,7 +57,7 @@ export function AiFail() {
             {images.map((image, index) => (
               <div key={index} className="w-full flex-shrink-0">
                 <div className="aspect-w-16 aspect-h-9">
-                  <img src="/placeholder.svg" alt={image.alt} className="w-full h-full object-cover rounded-lg" />
+                  <img src={image.src} alt={image.alt} className="w-full h-full object-cover rounded-lg" />
                 </div>
               </div>
             ))}

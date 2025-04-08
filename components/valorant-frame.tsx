@@ -6,7 +6,7 @@ export function ValorantFrame() {
       {/* Image placeholder with empty src for user to fill in */}
       <div className="rounded-lg overflow-hidden mb-3">
         <div className="aspect-w-16 aspect-h-9">
-          <img src="/placeholder.svg" alt="Eli in Valorant" className="w-full h-full object-cover rounded-lg" />
+          <img src="/public/7zcxb5sxz3k61.png" alt="Eli in Valorant" className="w-full h-full object-cover rounded-lg" />
         </div>
       </div>
     </div>
