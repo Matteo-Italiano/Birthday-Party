@@ -81,7 +81,7 @@ export function MathGallery() {
             <div className="bg-white rounded-lg shadow-lg p-3 transform transition-transform hover:scale-105">
               {/* Image with empty src for user to fill in */}
               <div className="h-48 rounded-md overflow-hidden mb-3">
-                <img src="/placeholder.svg" alt={`Math memory ${memory.id}`} className="w-full h-full object-cover" />
+                <img src={memory.src} alt={`Math memory ${memory.id}`} className="w-full h-full object-cover" />
               </div>
 
               {/* Caption */}
