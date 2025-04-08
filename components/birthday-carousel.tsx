@@ -24,10 +24,10 @@ const carouselItems = [
     title: "Fun Fact of the Year",
     content: (
       <div className="p-4 bg-pink-100 rounded-lg">
-        <h3 className="font-bold text-pink-800 mb-2">🤯 Did You Know? 🤯</h3>
-        <p className="text-pink-900 text-lg font-medium">Eli once ate 3 pizzas in one sitting 🐐</p>
+        <h3 className="font-bold text-pink-800 mb-2">🤯 Did You Know?🤯</h3>
+        <p className="text-pink-900 text-lg font-medium">Eli cheated on an arabic exam once 🐐</p>
         <p className="text-pink-700 mt-2 text-sm">
-          This achievement has been recorded in the "Friends Who Can Really Eat" hall of fame!
+          This achievement has been recorded in the "Who Can cheat" hall of fame!
         </p>
       </div>
     ),
