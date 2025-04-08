@@ -6,7 +6,7 @@ export function SwingingBroom() {
       {/* Image placeholder with empty src for user to fill in */}
       <div className="rounded-lg overflow-hidden mb-3">
         <div className="aspect-w-16 aspect-h-9">
-          <img src="/mp-a4c5b652-tProduct_mainImage.png" alt="Swinging Broom Incident" className="w-full h-full object-cover rounded-lg" />
+          <img src="./mp-a4c5b652-tProduct_mainImage.png" alt="Swinging Broom Incident" className="w-full h-full object-cover rounded-lg" />
         </div>
       </div>
 

@@ -12,12 +12,12 @@ export function AiFail() {
     {
       id: 1,
       alt: "AI Fail Image Matteo",
-      src:'/image.png'
+      src:'./image.png'
     },
     {
       id: 2,
       alt: "AI Fail Image Eli",
-      src: '/th.png'
+      src: './th.png'
     },
   ]
 
