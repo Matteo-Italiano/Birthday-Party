@@ -8,26 +8,31 @@ const mathMemories = [
     id: 1,
     title: "",
     description: "",
+    src: "/Screenshot_2025-02-15_000336.png"
   },
   {
     id: 2,
     title: "",
     description: "",
+    src: "/1740348493580.jpg"
   },
   {
     id: 3,
     title: "",
     description: "",
+    src: "/Screenshot_2025-02-15_000354.png"
   },
   {
     id: 4,
     title: "",
     description: "",
+    src: "/Screenshot_2025-02-15_000413.png"
   },
   {
     id: 5,
     title: "",
     description: "",
+    src: "/1740347085613.jpg"
   },
 ]
 
