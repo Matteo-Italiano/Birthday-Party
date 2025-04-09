@@ -12,7 +12,7 @@ export function BirthdayCountdown() {
 
   useEffect(() => {
     // Set the birthday end date (April 10, 2025 at midnight)
-    const birthdayEnd = new Date("April 10, 2025 23:59:59").getTime()
+    const birthdayEnd = new Date("April 11, 2025 23:59:59").getTime()
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime()
